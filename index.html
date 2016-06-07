@@ -5,7 +5,7 @@
   <script src="js/jquery.imageLens.js" type="text/javascript"></script>
 <script type="text/javascript" language="javascript">
 		$(function () {
-			$("img").imageLens({ borderSize: 4, borderColor: "forestgreen" });
+			$("#zoom").imageLens({ borderSize: 4, borderColor: "forestgreen" });
 		});	
 	</script>
 
@@ -16,7 +16,7 @@
 <body>
   <div class="grid">
   <div class="about"><p>Hello! My name is Josiah Ingram, and I am a recent graduate of Eastern Washington University's Technical Communications Program! I have experience in both technical writing and visual design, and would love to hear from you! </p></div>
-  <div class="family"><img class="zoom" src="img/MyFamily.jpg" alt="myfamily" /></div>
+  <div class="family"><img id="zoom" src="img/MyFamily.jpg" alt="myfamily" /></div>
   <div class="contact"> <ul class="navi">
       <li class="facebook"> <a href="https://www.facebook.com/TheGram90" target="blank"><img src="img/facebook.png" alt="facebook" /> </a></li>
       <li class="linkedin"><a href="https://www.linkedin.com/in/josiahingram" target="blank"><img src="img/linkedin.png" alt="linkedin" /></a></li>
