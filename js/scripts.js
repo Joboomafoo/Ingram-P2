@@ -1,2 +1,3 @@
 // My Scripts
-$("img").imageLens();
+$(".family").imageLens({ borderSize: 4, borderColor: "forestgreen" });
+
