@@ -1,3 +1,3 @@
 // My Scripts
-$(".zoom").imageLens({ borderSize: 4, borderColor: "forestgreen" });
+$("img").imageLens({ borderSize: 4, borderColor: "forestgreen" });
 
