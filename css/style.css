@@ -1,31 +1,106 @@
-.home {
-  margin: 0 auto;
-  height: 1000px;
-  width: 1500px;
-  background: gray;
+body {
   display: flex;
-  flex-flow: column wrap-reverse;
-  justify-content: space-around;
+  flex-direction: column;
+  background: #FOFOFO;
 }
-
-h1 {
-  font-family: courier;
-  text-align: center;
+@keyframes slideRight {
+  from { transform: translateX(-1000px) }
+  to { transform: translateX(0) }
+}
+@keyframes slideLeft {
+  from { transform: translateX(1000px) }
+  to { transform: translateX(0) }
+}
+.nav {
+  margin-bottom: 60px;
+}
+.headline {
+  display: flex;
+  height: 80px;
+  width: 820px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  background-color: forestgreen;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.headline h1 {
+  font-family: 'arial';
+  color: white;
   font-size: 3em;
 }
-p {
-  font-family: courier;
-  margin: 15px;
+.contact {
+  display: flex;
+  width: 840px;
+  background: forestgreen;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
-
-.left {
-  background: teal;
-  height: 100%;
-  width: 53.3%;
+.navi {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
 }
-
-.right {
-  background: orange;
-  width: 46.7%;
-  height: 100%;
+.facebook, .linkedin, .gmail {
+  width: 50px;
+  height: 50px;
+}
+li {
+ margin: 0 25px; 
+}
+.grid {
+  display: flex;
+  max-width: 850px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+.family {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  background-color: white;
+  flex: auto;
+}
+.family img {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+}
+.about {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  flex-flow: column wrap;
+  border-radius: 20px;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: forestgreen;
+  flex: auto;
+  object-fit: cover;
+}
+.about p {
+color: white;
+  font-size: 1.3em;
+  object-fit: cover;
+  margin: 0;
+  padding: 0px 30px 10px 30px;
+  letter-spacing: .3px;
+  font-family: 'arial';
+}
+ img {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
 }
