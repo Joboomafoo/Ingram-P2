@@ -1,2 +1,2 @@
 // My Scripts
-$("#img_01").imageLens();
+$("img/MyFamily.jpg").imageLens();
