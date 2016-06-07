@@ -1,4 +1,2 @@
 // My Scripts
-$('article').readmore({
-      speed: 1000
-});
+$("#img_01").imageLens();
