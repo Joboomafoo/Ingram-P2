@@ -24,6 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  opacity: .55;
 }
 .headline h1 {
   font-family: 'arial';
@@ -38,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  opacity: .55;
 }
 .navi {
   display: flex;
@@ -47,6 +49,7 @@ body {
   margin: 0 auto;
   padding: 10px;
   width: 100%;
+  opacity: .55;
 }
 .facebook, .linkedin, .gmail {
   width: 50px;
@@ -89,6 +92,7 @@ li {
   background-color: forestgreen;
   flex: auto;
   object-fit: cover;
+  opacity: .55;
 }
 .about p {
 color: white;
